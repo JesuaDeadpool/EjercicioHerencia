@@ -9,21 +9,28 @@ namespace EjercicioHerencia
     public class Operaciones
     {
 
-        public double AreaTrapeacio(double baseA, double ancho, double altura)
+        public double Base { get; set; }
+        public double Ancho { get; set; }
+        public double Altura { get; set;  }
+        public double Radio {  get; set; }
+
+
+
+        public double AreaTrapeacio()
         {
-            return ((baseA + ancho) * altura) / 2; 
+            return ((Base + Ancho) * Altura) / 2; 
         }
 
 
-        public double VolumenEsfera(double radio)
+        public double VolumenEsfera()
         {
-            return 4 / 3 * (Math.PI * Math.Pow(radio, 3));
+            return 4 / 3 * (Math.PI * Math.Pow(Radio, 3));
 
         }
 
-        public double LongitudCircuferencia(double radio)
+        public double LongitudCircuferencia()
         {
-            return 2 * Math.PI * radio; 
+            return 2 * Math.PI * Radio; 
         }
 
 
