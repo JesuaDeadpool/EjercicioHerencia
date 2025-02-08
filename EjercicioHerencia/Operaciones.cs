@@ -8,13 +8,9 @@ namespace EjercicioHerencia
 {
     public class Operaciones
     {
-
-    
-
-
-        public double AreaTrapeacio(double Base, double Ancho, double Altura)
+        public double AreaTrapeacio(double Base1, double Base2, double Altura)
         {
-            return ((Base + Ancho) * Altura) / 2; 
+            return ((Base1 + Base2) * Altura) / 2; 
         }
 
 
