@@ -20,9 +20,9 @@ namespace EjercicioHerencia
 
         }
 
-        public double LongitudCircuferencia(double Radio)
+        public double LongitudCircuferencia(double RadioCir)
         {
-            return 2 * Math.PI * Radio; 
+            return 2 * Math.PI * RadioCir; 
         }
 
 
